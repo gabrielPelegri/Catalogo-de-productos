@@ -7,7 +7,7 @@ public class Producto {
     int unidades;
     public Producto(){
         codigo = 0;
-        descripcion = "";
+        descripcion = " ";
         precio = 0;
         unidades = 0;
     }

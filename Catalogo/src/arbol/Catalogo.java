@@ -15,13 +15,13 @@ public class Catalogo {
         return raiz == null;
     }
 
-    public Categoria raiz() throws Exception { // si el árbol está vacío
+    public Categoria raiz() throws Exception { 
         if (esVacio())
             throw new Exception("raiz: árbol vacío");
         return raiz;
     }
 
-    public Catalogo hijoIzq() throws Exception { // si el árbol está vacío
+    public Catalogo hijoIzq() throws Exception { 
         if (esVacio()) {
             throw new Exception("Error en hijoIzq: árbol vacío");
 
@@ -29,7 +29,7 @@ public class Catalogo {
         return new Catalogo(raiz.izq);
     }
 
-    public Catalogo hijoDer() throws Exception { // si el árbol está vacío
+    public Catalogo hijoDer() throws Exception { 
         if (esVacio()) {
             throw new Exception("Error en hijoIzq: árbol vacío");
 
